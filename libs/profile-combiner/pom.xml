@@ -1,0 +1,26 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <parent>
+        <artifactId>libs</artifactId>
+        <groupId>com.gigya.cdp</groupId>
+        <version>1.0.2-SNAPSHOT</version>
+    </parent>
+    <packaging>pom</packaging>
+    <modelVersion>4.0.0</modelVersion>
+    <artifactId>profile-combiner</artifactId>
+    <version>1.0.2-SNAPSHOT</version>
+
+
+    <modules>
+        <module>profile-combiner.api</module>
+        <module>profile-combiner.logic</module>
+    </modules>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.gigya.cdp</groupId>
+            <artifactId>java-common</artifactId>
+            <version>1.0</version>
+            <scope>compile</scope>
+        </dependency>
+    </dependencies>
+</project>
