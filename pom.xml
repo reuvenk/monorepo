@@ -71,7 +71,7 @@
           <releaseGoals>
             <releaseGoal>install</releaseGoal>
           </releaseGoals>
-          <serverId>github</serverId>
+          <serverId>central</serverId>
         </configuration>
       </plugin>
     </plugins>
