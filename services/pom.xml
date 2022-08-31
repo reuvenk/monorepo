@@ -12,6 +12,7 @@
   <packaging>pom</packaging>
   <modules>
     <module>idr</module>
+    <module>segment-recalc</module>
   </modules>
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
