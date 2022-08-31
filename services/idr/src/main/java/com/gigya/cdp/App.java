@@ -16,6 +16,6 @@ public class App
     {
         logger.log("Starting IDR");
 
-        profileCombiner.HandleProfileUpdate("from IDR 5"1);
+        profileCombiner.HandleProfileUpdate("from IDR 5");
     }
 }
