@@ -31,8 +31,8 @@
         <artifactId>multi-module-maven-release-plugin</artifactId>
         <version>3.6.1</version>
         <configuration>
-          <pullTags>true</pullTags>
-          <pushTags>true</pushTags>
+          <pullTags>false</pullTags>
+          <pushTags>false</pushTags>
           <noChangesAction>FailBuild</noChangesAction>
           <releaseGoals>
             <releaseGoal>install</releaseGoal>
