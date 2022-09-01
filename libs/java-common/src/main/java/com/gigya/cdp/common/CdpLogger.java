@@ -4,6 +4,5 @@ public class CdpLogger {
     public void log(String log){
         System.out.println( log);
         System.out.println( log);
-        System.out.println( log);
     }
 }
